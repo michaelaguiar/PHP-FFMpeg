@@ -33,17 +33,11 @@
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "pbmedia/binary-driver": "^2.0",
+        "pbmedia/binary-driver": "^3.0",
         "doctrine/cache": "^1.0",
         "evenement/evenement": "^2.0 || ^1.0",
         "neutron/temporary-filesystem": "^2.1.1"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/pascalbaljetmedia/BinaryDriver"
-        }
-    ],
     "suggest": {
         "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
     },
